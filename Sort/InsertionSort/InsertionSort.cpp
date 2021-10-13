@@ -1,7 +1,7 @@
 // @Author: oxc
 // @LastEditors: oxc
 // @Date: 2021-10-12 09:38:38
-// @LastEditTime: 2021-10-13 09:49:38
+// @LastEditTime: 2021-10-13 09:55:38
 // @Description: 实现插入排序算法
 // @FilePath: \InsertionSort\InsertionSort.cpp
 
@@ -17,6 +17,7 @@ using std::vector;
 
 // 插入排序算法
 // 插入排序是稳定的排序算法
+// 最好时间复杂度 O(n)，最坏时间复杂度 O(n^2)
 
 void InsertionSort(vector<int>& v) {
     if (v.size() <= 1)
