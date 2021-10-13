@@ -1,7 +1,7 @@
 // @Author: oxc
 // @LastEditors: oxc
 // @Date: 2021-10-11 20:03:40
-// @LastEditTime: 2021-10-11 20:52:58
+// @LastEditTime: 2021-10-12 08:32:00
 // @Description: 实现冒泡排序算法
 // @FilePath: \BubbleSort\BubbleSort.cpp
 
@@ -17,6 +17,7 @@ using std::vector;
 
 // 冒泡排序算法
 // 冒气泡排序是稳定的排序算法
+// 最好情况O(n)，最坏情况O(n^2)
 
 void BubbleSort(vector<int>& v) {
     if (v.size() <= 1)
