@@ -2,7 +2,7 @@
 // @LastEditors: oxc
 // @Date: 2021-10-26 10:24:23
 // @LastEditTime: 2021-10-26 12:28:40
-// @Description: 实现归并排序
+// @Description: 实现归并排序(递归)
 // @FilePath: \MergeSort\MergeSort.cpp
 
 #include <iostream>
