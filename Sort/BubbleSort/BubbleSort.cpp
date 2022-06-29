@@ -18,7 +18,6 @@ using std::vector;
 // 冒泡排序算法
 // 冒气泡排序是稳定的排序算法
 // 最好情况O(n)，最坏情况O(n^2)
-
 void BubbleSort(vector<int>& v) {
     if (v.size() <= 1)
         return;

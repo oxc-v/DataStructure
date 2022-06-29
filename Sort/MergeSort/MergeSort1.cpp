@@ -18,7 +18,6 @@ using std::vector;
 // 插入排序算法
 // 插入排序是稳定的排序算法
 // 最好时间复杂度 O(n)，最坏时间复杂度 O(n^2)
-
 void InsertionSort(vector<int>& v) {
     if (v.size() <= 1)
         return;
@@ -73,6 +72,7 @@ void Merge(vector<int>& v, const int low, const int mid, const int high) {
 
 // 归并排序
 // 最坏、最好、平均复杂度O(nlogn)
+// 空间复杂度O(n)
 // 稳定的排序算法
 void MergeSort(vector<int>& v, const int low, const int high) {
 

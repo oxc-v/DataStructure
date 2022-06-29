@@ -43,6 +43,7 @@ void InsertionSort(vector<int>& v) {
 
 // 归并排序
 // 最坏、最好、平均复杂度O(nlogn)
+// 空间复杂度O(n)
 // 稳定的排序算法
 void MergeSort(vector<int>& v, std::size_t len) {
     // vector<int> v = v;

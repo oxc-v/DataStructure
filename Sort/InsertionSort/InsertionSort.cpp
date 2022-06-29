@@ -18,7 +18,6 @@ using std::vector;
 // 插入排序算法
 // 插入排序是稳定的排序算法
 // 最好时间复杂度 O(n)，最坏时间复杂度 O(n^2)
-
 void InsertionSort(vector<int>& v) {
     if (v.size() <= 1)
         return;
