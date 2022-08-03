@@ -43,7 +43,8 @@ void adjustHeap(vector<int>& v, std::size_t i, std::size_t len)
 void HeapSort(vector<int>& v)
 {
     // 构建大顶堆
-    for (int i = v.size() / 2 - 1; i < v.size(); --i) {
+    for (int i = v.size() / 2 - 1; i >= 0; --i) {
+        //从第一个非叶子结点从下至上，从右至左调整结构
         adjustHeap(v, i, v.size());
     }
 
@@ -56,7 +57,7 @@ void HeapSort(vector<int>& v)
 
 int main(int argc, char* argv[])
 {
-    vector<int> v{3, 1, 4, 8, 9, 6, 10, 33, 2};
+    vector<int> v{59, 41, 39, 11, 13, 34, 48, 75, 6, 19, 9, 7};
     
     // 排序前
     cout << "Before ordering...\n";

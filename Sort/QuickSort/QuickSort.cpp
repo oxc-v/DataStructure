@@ -17,7 +17,6 @@ using std::vector;
 // 快速排序算法
 // 快速排序是不稳定的排序算法
 // 快速排序的最优时间复杂度和平均时间复杂度为O(nlogn)，最坏时间复杂度为O(n^2) 
-// 空间复杂度O(1)
 void QuickSort(vector<int>& v, int left, int right) 
 {
     if (left > right) { return; }
